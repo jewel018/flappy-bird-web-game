@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#70c5ce">
+  <title>Flappy Bird | Jewel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-container">
+    <header>
+      <h1>Flappy Bird</h1>
+      <p>Tap, click, or press Space to fly!</p>
+    </header>
+
+    <section class="game-area">
+      <canvas id="gameCanvas" width="360" height="640"
+        aria-label="Flappy Bird game"></canvas>
+
+      <div id="overlay" class="overlay">
+        <h2 id="overlayTitle">Flappy Bird</h2>
+        <p id="overlayMessage">Avoid the pipes and beat your high score.</p>
+        <button id="startButton">Start Game</button>
+      </div>
+    </section>
+
+    <p class="controls">Desktop: Space / Click · Mobile: Tap</p>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
